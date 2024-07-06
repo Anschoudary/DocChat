@@ -15,7 +15,7 @@ def get_model():
             {
                 "role": "user",
                 "parts": [
-                    f"Understand this: {text}",
+                    f"Understand this and don't talk about un-related info: {text}",
                 ],
             },
         ]
